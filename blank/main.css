@@ -10321,7 +10321,7 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 34, ../sass/common/_body.scss */
+/* line 35, ../sass/common/_body.scss */
 input,
 button,
 select,
@@ -10331,60 +10331,67 @@ textarea {
   line-height: inherit;
 }
 
+/* Wallpaper
+-------------------------------------------------- */
+/* line 46, ../sass/common/_body.scss */
+body {
+  background-image: url("wallpaper.png");
+}
+
 /* Typo
 -------------------------------------------------- */
-/* line 45, ../sass/common/_body.scss */
+/* line 52, ../sass/common/_body.scss */
 h1, h2, h3, h4 {
   margin-top: 0;
   color: #737373;
 }
 
-/* line 49, ../sass/common/_body.scss */
+/* line 56, ../sass/common/_body.scss */
 h1 {
   font-size: 160%;
 }
 
-/* line 53, ../sass/common/_body.scss */
+/* line 60, ../sass/common/_body.scss */
 h2 {
   font-size: 140%;
   margin: 10px 0 5px 0;
 }
 
-/* line 58, ../sass/common/_body.scss */
+/* line 65, ../sass/common/_body.scss */
 h3 {
   font-size: 120%;
 }
 
-/* line 62, ../sass/common/_body.scss */
+/* line 69, ../sass/common/_body.scss */
 h4 {
   font-size: 110%;
 }
 
-/* line 66, ../sass/common/_body.scss */
+/* line 73, ../sass/common/_body.scss */
 .item-cnt {
   font-size: 80%;
 }
 
 /* Colors
 -------------------------------------------------- */
-/* line 71, ../sass/common/_body.scss */
+/* line 78, ../sass/common/_body.scss */
 .color-orange {
   color: orange;
 }
 
 /* Links
 -------------------------------------------------- */
-/* line 76, ../sass/common/_body.scss */
+/* line 83, ../sass/common/_body.scss */
 a {
   color: #333333;
   text-decoration: none;
 }
-/* line 80, ../sass/common/_body.scss */
+/* line 87, ../sass/common/_body.scss */
 a:hover, a:focus {
   color: #1a1a1a;
   text-decoration: underline;
 }
-/* line 85, ../sass/common/_body.scss */
+/* line 92, ../sass/common/_body.scss */
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
@@ -10393,7 +10400,7 @@ a:focus {
 
 /* Fatal error
 -------------------------------------------------- */
-/* line 95, ../sass/common/_body.scss */
+/* line 102, ../sass/common/_body.scss */
 .app-fatal-error {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -10403,13 +10410,13 @@ a:focus {
   background-color: #FFFFFF;
   border: solid 1px #d9534f;
 }
-/* line 102, ../sass/common/_body.scss */
+/* line 109, ../sass/common/_body.scss */
 .app-fatal-error .fatal-error-message {
   color: #d9534f;
   font-weight: bold;
   font-size: 120%;
 }
-/* line 107, ../sass/common/_body.scss */
+/* line 114, ../sass/common/_body.scss */
 .app-fatal-error .fatal-error-info {
   margin: 10px 0 0 0;
   color: #000000;
@@ -10418,44 +10425,44 @@ a:focus {
 
 /* Others
 -------------------------------------------------- */
-/* line 116, ../sass/common/_body.scss */
+/* line 123, ../sass/common/_body.scss */
 .timestamp {
   color: #333333;
   font-size: 17px;
 }
-/* line 119, ../sass/common/_body.scss */
+/* line 126, ../sass/common/_body.scss */
 .timestamp .fa {
   font-size: 110%;
 }
 
-/* line 123, ../sass/common/_body.scss */
+/* line 130, ../sass/common/_body.scss */
 .bcg-success {
   background-color: #dff0d8;
 }
 
-/* line 126, ../sass/common/_body.scss */
+/* line 133, ../sass/common/_body.scss */
 .bcg-active.false, .bcg-danger {
   background-color: #f2dede;
 }
 
-/* line 130, ../sass/common/_body.scss */
+/* line 137, ../sass/common/_body.scss */
 .clickable {
   cursor: pointer;
 }
 
-/* line 134, ../sass/common/_body.scss */
+/* line 141, ../sass/common/_body.scss */
 .text-supp {
   font-style: italic;
   color: #595959;
 }
 
-/* line 139, ../sass/common/_body.scss */
+/* line 146, ../sass/common/_body.scss */
 .badge {
   padding: 5px;
   margin-right: 5px;
 }
 
-/* line 143, ../sass/common/_body.scss */
+/* line 150, ../sass/common/_body.scss */
 .help-text {
   display: block;
   font-size: 95%;
@@ -10463,17 +10470,17 @@ a:focus {
   margin: 5px 0;
 }
 
-/* line 149, ../sass/common/_body.scss */
+/* line 156, ../sass/common/_body.scss */
 .help-text.inline {
   display: inline;
 }
 
-/* line 153, ../sass/common/_body.scss */
+/* line 160, ../sass/common/_body.scss */
 .display-block {
   display: block;
 }
 
-/* line 156, ../sass/common/_body.scss */
+/* line 163, ../sass/common/_body.scss */
 .badge-number {
   background-color: #a6a6a6;
   color: #FFFFFF;
